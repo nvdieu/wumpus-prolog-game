@@ -17,16 +17,17 @@
 ## - Clone
 git clone https://github.com/nvdieu/wumpus-prolog.git
 
-## - Wumpus game play
-cd wumpus-prolog
+## - Wumpus game play:
 
-swipl
+- cd wumpus-prolog
 
-?- consult('wumpus.qlf').
+- swipl
 
-<font color="red">?- start.</font>
+- ?- consult('wumpus.qlf').
 
-?- help.
+- ?- start.
+
+- ?- help.
 
 ## - Rule:
 
