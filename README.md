@@ -1,6 +1,6 @@
 # Wumpus World game to learn Propositional logic and Predicate logic
 
-### - Các lệnh phải có dấu chấm sau lệnh
+### - Các lệnh phải có dấu chấm (.) sau lệnh
 ### - start(0). Là dùng Map ví dụ Wumpus Word trong sách IAMA
 ### - start. Lấy Map ngẫu nhiên.
 ### - start(n). Với n từ 1 -> 20 là các Map n
