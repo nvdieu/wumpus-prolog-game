@@ -9,9 +9,9 @@ cd wumpus-prolog
 
 swipl
 
--? consult('wumpus.qlf').
+?- consult('wumpus.qlf').
 
--? start.
+?- start.
 
 ## - Using help command in game to describe the commands of game
 ## - Each step, using propositional logic inference to design to go
