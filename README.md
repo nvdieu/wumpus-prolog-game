@@ -6,9 +6,6 @@
 ### - start(n). Với n từ 1 -> 20 là các Map n
 ### - Nên sử dụng lệnh help. để biết các lệnh
 
-### - Using help command in game to describe the commands of game
-### - Each step, using propositional logic inference to design to go
-### - Wumpus example in AIMA book (Stuart J. Russell and Peter Norvig)
 <div align="center">
 <img src="wumpus.png" alt="Wumpus in AIMA book" width="30%" height="30%">
 </div>
