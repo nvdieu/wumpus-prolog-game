@@ -1,18 +1,5 @@
 # Wumpus World game to learn Propositional logic and Predicate logic
 
-## - install prolog
-[https://www.swi-prolog.org/download/stable](https://www.swi-prolog.org/download/stable)
-## - Clone
-git clone https://github.com/nvdieu/wumpus-prolog.git
-## - Wumpus game play
-cd wumpus-prolog
-
-swipl
-
-?- consult('wumpus.qlf').
-
-?- start.
-
 ### - Các lệnh phải có dấu chấm sau lệnh
 ### - start(0). Là dùng Map ví dụ Wumpus Word trong sách IAMA
 ### - start. Lấy Map ngẫu nhiên.
@@ -25,6 +12,22 @@ swipl
 <div align="center">
 <img src="wumpus.png" alt="Wumpus in AIMA book" width="30%" height="30%">
 </div>
+
+
+# Bắt đầu install Prolog va chạy chương trình như sau:
+## - install prolog
+[https://www.swi-prolog.org/download/stable](https://www.swi-prolog.org/download/stable)
+## - Clone
+git clone https://github.com/nvdieu/wumpus-prolog.git
+
+## - Wumpus game play
+cd wumpus-prolog
+
+swipl
+
+?- consult('wumpus.qlf').
+
+?- start.
 
 ## - Rule:
 
