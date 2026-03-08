@@ -20,15 +20,11 @@ git clone https://github.com/nvdieu/wumpus-prolog.git
 ## - Wumpus game play:
 
 - cd wumpus-prolog
-
 - swipl
-
 - ?- consult('wumpus.qlf').
-
 - ?- start.
-
 - ?- help.
-- 
+---
 ## e.g. Wumpus Worlf in AIMA book:
 ?- start(0).
 - 🎉 4x4 Wumpus World Game 🎉
