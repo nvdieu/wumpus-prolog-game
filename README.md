@@ -29,6 +29,8 @@ swipl
 
 ?- start.
 
+?- help.
+
 ## - Rule:
 
     1 wumpus, 1 gold, 1 or more pit.
