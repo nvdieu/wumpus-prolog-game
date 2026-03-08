@@ -30,8 +30,29 @@ git clone https://github.com/nvdieu/wumpus-prolog.git
 - ?- help.
 - 
 ## e.g. Wumpus Worlf in AIMA book:
+?- help.
+- 🎉 Wumpus Commands 🎉
+- \- Start New game with random map / start. 
+- \- Start New game with specific  map / start(ID). With ID 0-20; 0: Wumpus World example in AIMA book
+- \- Go up / goup. 
+- \- Go down / godown. 
+- \- Go left / goleft. 
+- \- Go right / goright. 
+- \- Shoot up / shootup. 
+- \- Shoot down / shootdown. 
+- \- Shoot left / shootleft. 
+- \- Shoot right / shootright. 
+- \- Grab gold / grab. 
+- \- Climb up / climbup. 
+- \- Climb down / climbdown. 
+- \- Show visited cells / visited. 
+- \- Show current score / score. 
+- \- Show current location / current. 
+- \- Exit the game / quit. 
+- © 2026 nvdieu@gmail.com
+- true.
+---
 ?- start(0).
-
 - 🎉 4x4 Wumpus World Game 🎉
 - 🏠 You are at the cave entrance. Type "climbdown." to enter.
 - Position: (0,0). Percepts: Nothing at all!
