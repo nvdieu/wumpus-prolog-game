@@ -29,8 +29,7 @@ git clone https://github.com/nvdieu/wumpus-prolog.git
 
 - ?- help.
 - 
-## Wumpus Worlf in AIMA book example:
----
+## e.g. Wumpus Worlf in AIMA book:
 ?- start(0).
 
 - 🎉 4x4 Wumpus World Game 🎉
