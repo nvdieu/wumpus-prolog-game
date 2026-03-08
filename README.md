@@ -114,7 +114,7 @@ git clone https://github.com/nvdieu/wumpus-prolog.git
 
 ## - Rule:
 
-    1 wumpus, 1 gold, 1 or more pit.
+    1 Wumpus, 1 Gold and Pit in other square with probability 0.2.
 
     Start position at (0,0).
 
