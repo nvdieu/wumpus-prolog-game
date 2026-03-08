@@ -30,6 +30,13 @@ git clone https://github.com/nvdieu/wumpus-prolog.git
 - ?- help.
 - 
 ## e.g. Wumpus Worlf in AIMA book:
+?- start(0).
+- 🎉 4x4 Wumpus World Game 🎉
+- 🏠 You are at the cave entrance. Type "climbdown." to enter.
+- Position: (0,0). Percepts: Nothing at all!
+- Current Score: 0
+- true.
+---
 ?- help.
 - 🎉 Wumpus Commands 🎉
 - \- Start New game with random map / start. 
@@ -50,13 +57,6 @@ git clone https://github.com/nvdieu/wumpus-prolog.git
 - \- Show current location / current. 
 - \- Exit the game / quit. 
 - © 2026 nvdieu@gmail.com
-- true.
----
-?- start(0).
-- 🎉 4x4 Wumpus World Game 🎉
-- 🏠 You are at the cave entrance. Type "climbdown." to enter.
-- Position: (0,0). Percepts: Nothing at all!
-- Current Score: 0
 - true.
 ---
 ?- climbdown.
