@@ -28,6 +28,73 @@ git clone https://github.com/nvdieu/wumpus-prolog.git
 - ?- start.
 
 - ?- help.
+- 
+## Wumpus Worlf in AIMA book example:
+---
+?- start(0).
+
+- 🎉 4x4 Wumpus World Game 🎉
+- 🏠 You are at the cave entrance. Type "climbdown." to enter.
+- Position: (0,0). Percepts: Nothing at all!
+- Current Score: 0
+- true.
+---
+?- climbdown.
+- 🕳️ You have climbed down the cave! Be careful!
+- Position: (1,1). Percepts: Nothing at all!
+- Current Score: 0
+- true.
+---
+?- goright.
+- Position: (2,1). Percepts: Breeze: 💨, 
+- Current Score: -1
+- true.
+---
+?- goleft.
+- Position: (1,1). Percepts: Nothing at all!
+- Current Score: -2
+- true.
+---
+?- goup.
+- Position: (1,2). Percepts: Stench: ♨️, 
+- Current Score: -1
+- true.
+---
+?- goright.
+- Position: (2,2). Percepts: Nothing at all!
+- Current Score: -2
+- true.
+---
+?- goup.
+- Position: (2,3). Percepts: Breeze: 💨, Stench: ♨️, Glitter: ✨, 
+- Current Score: -3
+- true.
+---
+?- grab.
+- ✨ You have found gold! 💰💰💰
+- Current Score: 97
+- true.
+---
+?- godown.
+- Position: (2,2). Percepts: Nothing at all!
+- Current Score: 96
+- true.
+---
+?- godown.
+- Position: (2,1). Percepts: Breeze: 💨, 
+- Current Score: 95
+- true.
+---
+?- goleft.
+- Position: (1,1). Percepts: Nothing at all!
+- Current Score: 94
+- true.
+---
+?- climbup.
+- 🎉 Congratulations! You completed the mission! 🏆
+- Current Score: 1094
+- true.
+---
 
 ## - Rule:
 
