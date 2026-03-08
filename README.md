@@ -24,7 +24,7 @@ swipl
 
 ?- consult('wumpus.qlf').
 
-?- start.
+<font color="red">?- start.</font>
 
 ?- help.
 
