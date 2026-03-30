@@ -21,7 +21,7 @@ git clone https://github.com/nvdieu/wumpus-prolog.git
 
 - cd wumpus-prolog
 - swipl
-- ?- consult('wumpus.qlf').
+- ?- consult('wumpus.qlf'). hoặc [wumpus].
 - ?- start.
 - ?- help.
 ---
