@@ -1,7 +1,7 @@
 # Wumpus World game to learn Propositional logic and Predicate logic
 
 ### - Các lệnh phải có dấu chấm (.) sau lệnh
-### - start(0). Là dùng Map ví dụ Wumpus Word trong sách AIMA
+### - start(0). Là dùng Map ví dụ Wumpus World trong sách AIMA
 ### - start. Lấy Map ngẫu nhiên.
 ### - start(n). Với n từ 1 -> 20 là các Map n
 ### - Nên sử dụng lệnh help. để biết các lệnh
@@ -11,7 +11,7 @@
 </div>
 
 
-# Bắt đầu install Prolog va chạy chương trình như sau:
+# Bắt đầu install Prolog và chạy chương trình như sau:
 ## - install prolog
 [https://www.swi-prolog.org/download/stable](https://www.swi-prolog.org/download/stable)
 
@@ -132,7 +132,7 @@ git clone [https://github.com/nvdieu/wumpus-prolog-game](https://github.com/nvdi
 
 ## - Knowledge Base: KB
 
-## Position(x,y) we Percieve:
+## Position(x,y) we Perceive:
 
 **KB(1):**
 
@@ -203,7 +203,7 @@ git clone [https://github.com/nvdieu/wumpus-prolog-game](https://github.com/nvdi
 
     ¬Stench(2,1) ⇔ ¬(wumpus(1, 1) ∨ wumpus(3, 1) ∨ wumpus(2, 2))
 
-                 ⇔ ¬wwumpus(1, 1) , ¬wumpus(3, 1) , ¬wumpus(2, 2)
+                 ⇔ ¬wumpus(1, 1) , ¬wumpus(3, 1) , ¬wumpus(2, 2)
 
 **KB(11):**
 
@@ -217,7 +217,7 @@ git clone [https://github.com/nvdieu/wumpus-prolog-game](https://github.com/nvdi
 
     ¬wumpus(2,2)
 
-## Now we can'n go right or go up. We tern bach to (1,1) and go up:
+## Now we can'n go right or go up. We turn back to (1,1) and go up:
 
     Position(1,2) , Percieve(¬Breeze, Stench, ¬Glitter, ¬Bump, ¬Scream)
 
@@ -285,7 +285,7 @@ git clone [https://github.com/nvdieu/wumpus-prolog-game](https://github.com/nvdi
 
     Pit(4,2) ∨ Pit(3,1) ∨ Pit(3,3)
 
-## So, we can'n go to (4,2) or (3,1) or (3,3)
+## So, we can't go to (4,2) or (3,1) or (3,3)
 
 ## We tern back to (2,2) {Nothing} and go up:
 
@@ -295,7 +295,7 @@ git clone [https://github.com/nvdieu/wumpus-prolog-game](https://github.com/nvdi
 
     Glitter(2,3) ⇔ Gold(2,3)
 
-## We find gold, Crab gold anh tern back to (2,2) -> (2,1) -> (1,1) then climb up to (0,0): Win
+## We find gold, Crab gold and tern back to (2,2) -> (2,1) -> (1,1) then climb up to (0,0): Win
 
 
 
