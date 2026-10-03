@@ -15,7 +15,7 @@
 ## - install prolog
 [https://www.swi-prolog.org/download/stable](https://www.swi-prolog.org/download/stable)
 ## - Clone
-git clone https://github.com/nvdieu/wumpus-prolog.git
+git clone [https://github.com/nvdieu/wumpus-prolog-game](https://github.com/nvdieu/wumpus-prolog-game)
 
 ## - Wumpus game play:
 
