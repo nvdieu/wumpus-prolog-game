@@ -14,6 +14,8 @@
 # Bắt đầu install Prolog va chạy chương trình như sau:
 ## - install prolog
 [https://www.swi-prolog.org/download/stable](https://www.swi-prolog.org/download/stable)
+
+### Version: SWI-Prolog 10.0.2-1
 ## - Clone
 git clone [https://github.com/nvdieu/wumpus-prolog-game](https://github.com/nvdieu/wumpus-prolog-game)
 
